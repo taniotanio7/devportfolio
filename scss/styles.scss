@@ -28,8 +28,8 @@
 */
 
 // Dependencies
-$fa-font-path:"../fonts/font-awesome/fonts";
-@import "../fonts/font-awesome/scss/font-awesome.scss";
+$fa-font-path:"fonts/font-awesome/fonts";
+@import "fonts/font-awesome/scss/font-awesome.scss";
 .icon-user {
     @extend .fa;
     @extend .fa-user;
