@@ -587,6 +587,17 @@ footer {
     }
 }
 
+#training {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
+
 .education-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
@@ -719,6 +730,23 @@ footer {
         list-style: none;
         cursor: default;
         font-size: 1.2em;
+    }
+}
+
+.skills-learned {
+    ul {
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    li:before{
+        content: '\f00c'; // check
+        font-family: "FontAwesome";
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
     }
 }
 
