@@ -27,6 +27,12 @@
         12. Media Queries
 */
 
+// Imports
+@import "fontawesome.scss";
+@import "solid.scss";
+@import "brands.scss";
+
+
 /*
     ------------------------
     ----- 1. Variables -----
@@ -47,6 +53,9 @@ $border: #dcd9d9;
 // Define text colors
 $heading: #374054;
 $text: #74808a;
+
+// Font awesome
+$fa-font-path: "../static/webfonts";
 
 /*
     ---------------------
@@ -746,10 +755,9 @@ footer {
     }
 
     li:before{
-        content: '\f00c'; // check
-        font-family: "FontAwesome";
-        width: 10px;
-        height: 10px;
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-check);
         margin-right: 5px;
     }
 }
