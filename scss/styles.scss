@@ -132,9 +132,15 @@ body {
   }
 }
 
-.container, #experience {
+#projects, #experience {
   a {
     @include btn-draw-default($base-color);
+  }
+}
+
+#training {
+  a {
+    @include btn-draw-default($text)
   }
 }
 
