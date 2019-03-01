@@ -787,7 +787,7 @@ footer {
     -------------------------------
 */
 
-#skills {
+#skills, #knowledge {
   padding: 50px 15px;
   text-align: center;
 
@@ -828,6 +828,12 @@ footer {
     @extend .fas;
     content: fa-content($fa-var-check);
     margin-right: 5px;
+  }
+}
+
+#knowledge {
+  h3 {
+    margin-bottom: 25px;
   }
 }
 
